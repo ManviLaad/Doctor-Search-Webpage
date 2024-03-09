@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="index-">
+      <div class="navbar">
+        <div class="menusectionbg"></div>
+        <div class="logosection">
+          <div class="logosectionbg"></div>
+          <b class="logotext" id="logotext">MediFind</b>
+        </div>
+        <div class="menubtnsection">
+          <div class="menubuttonsectionbg"></div>
+          <div class="homebtn" id="hOMEbtnText">HOME</div>
+          <div class="aboutbtn" id="aboutbtnText">About</div>
+          <div class="servicebtn" id="servicebtnText">Services</div>
+          <div class="getstartedbtn" id="getstartedbtnContainer">
+            <div class="getstartedbg"></div>
+            <b class="lblgetstarted">Get Started</b>
+          </div>
+        </div>
+      </div>
+      <div class="bannersection">
+        <div class="bannersectionbackground"></div>
+        <div class="bannerimage">
+          <div class="imagearea"></div>
+          <img
+            class="bannerimage-icon"
+            alt=""
+            src="./public/bannerimage@2x.png"
+          />
+        </div>
+        <div class="formareasection">
+          <div class="formarea"></div>
+          <b class="lblbannertitle">
+            <p class="find-and-search">Find And Search your</p>
+            <p class="suitable-doctor">Suitable Doctor</p>
+          </b>
+          <b class="lblbannerdescription"
+            >Join us and take care of yourself and your family with MediFind
+            services that will make you feel confident and safe in your daily
+            life</b
+          >
+          <div class="form" data-scroll-to="formContainer">
+            <div class="formbg"></div>
+            <input
+              class="inputfinddr"
+              type="text"
+              placeholder="Find Your Doctor"
+              maxlength
+              minlength
+            />
+
+            <input
+              class="selectarea"
+              type="text"
+              placeholder="Select Area"
+              maxlength
+              minlength
+            />
+
+            <div class="searchbutton">
+              <button class="btn1bg"></button>
+              <img
+                class="searchimage-icon"
+                alt=""
+                src="./public/searchimage@3x.png"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="servicesection">
+        <div class="servicesectionbg"></div>
+        <b class="lbltitlesection3">3 Easy Steps to find your solution</b>
+        <div class="searchsection">
+          <div class="searchbox">
+            <div class="searchbg"></div>
+            <img class="searcicon" alt="" src="./public/searcicon@2x.png" />
+          </div>
+          <b class="titlesearchdr">Find best doctors</b>
+        </div>
+        <div class="appointmentsection">
+          <div class="appointmentbox">
+            <div class="appointmentbg"></div>
+            <img
+              class="appointmenticon"
+              alt=""
+              src="./public/appointmenticon@2x.png"
+            />
+          </div>
+          <b class="titleappointment">Get Appointment</b>
+        </div>
+        <div class="consultsection">
+          <div class="consultbox">
+            <div class="consultbg"></div>
+            <img
+              class="appointmenticon"
+              alt=""
+              src="./public/consulticon@2x.png"
+            />
+          </div>
+          <b class="consulttitle">Happy Consultation</b>
+        </div>
+      </div>
+      <div class="descriptionsection">
+        <div class="descriptionsectionbg"></div>
+        <div class="imagearea1">
+          <div class="imageareabg"></div>
+          <img
+            class="doctorimage-icon"
+            alt=""
+            src="./public/doctorimage@2x.png"
+          />
+
+          <div class="docintrosection">
+            <div class="docintrosecbg"></div>
+            <div class="dochearticon">
+              <div class="docheartbg"></div>
+              <img
+                class="heart-icon-1"
+                alt=""
+                src="./public/hearticon-1@2x.png"
+              />
+            </div>
+            <b class="docname">Dr. Surbhi Anand</b>
+            <b class="docexp">Cardiologist</b>
+          </div>
+        </div>
+        <div class="descriptionarea">
+          <div class="descriptionareabg"></div>
+          <div class="pointer1">
+            <div class="pointerbg1"></div>
+            <b class="lblpointer1">Search your specialist .</b>
+          </div>
+          <div class="pointer2">
+            <div class="pointerbg2"></div>
+            <b class="lblpointer2">Consult with our top specialist</b>
+          </div>
+          <div class="pointer-3">
+            <div class="pointerbg3"></div>
+            <b class="lblpointer3">Doctors are available 24*7.</b>
+          </div>
+          <div class="descripservices">
+            <p class="find-and-search">
+              <span>
+                <span>&nbsp;</span>
+              </span>
+            </p>
+            <p class="find-and-search">
+              <span>
+                <span>With our top doctors we are able to provide</span>
+              </span>
+            </p>
+            <p class="find-and-search">
+              <span>
+                <span>best medical services above average.We have </span>
+              </span>
+            </p>
+            <p class="find-and-search">
+              <span>
+                <span>highly experienced doctors,so do not wo</span>
+                <span class="rry">rry</span>
+              </span>
+              <span class="rry">
+                <b class="b">.</b>
+              </span>
+            </p>
+          </div>
+          <b class="titleservices">
+            <p class="find-and-search">Best quality service with</p>
+            <p class="find-and-search">our experience doctors</p>
+          </b>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var logotext = document.getElementById("logotext");
+      if (logotext) {
+        logotext.addEventListener("click", function () {
+          window.open("/");
+        });
+      }
+      
+      var hOMEbtnText = document.getElementById("hOMEbtnText");
+      if (hOMEbtnText) {
+        hOMEbtnText.addEventListener("click", function () {
+          window.open("home.html");
+        });
+      }
+      
+      var aboutbtnText = document.getElementById("aboutbtnText");
+      if (aboutbtnText) {
+        aboutbtnText.addEventListener("click", function () {
+          window.open("about.html");
+        });
+      }
+      
+      var servicebtnText = document.getElementById("servicebtnText");
+      if (servicebtnText) {
+        servicebtnText.addEventListener("click", function () {
+          window.open("services.html");
+        });
+      }
+      
+      var getstartedbtnContainer = document.getElementById("getstartedbtnContainer");
+      if (getstartedbtnContainer) {
+        getstartedbtnContainer.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='formContainer']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      </script>
+  </body>
+</html>

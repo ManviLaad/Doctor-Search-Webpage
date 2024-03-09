@@ -1,0 +1,254 @@
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.logosectionbg1,
+.menusectionbg1 {
+  position: absolute;
+  top: -30px;
+  left: -56px;
+  background-color: var(--color-gainsboro);
+  width: 1920px;
+  height: 122px;
+  display: none;
+}
+.logosectionbg1 {
+  top: -23px;
+  left: -54px;
+  width: 398px;
+}
+.logosection1,
+.logotext1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.logotext1 {
+  cursor: pointer;
+}
+.logosection1 {
+  width: 291px;
+  height: 77px;
+}
+.menubuttonsectionbg1 {
+  position: absolute;
+  top: -31px;
+  left: -25px;
+  background-color: var(--color-gainsboro);
+  width: 1040px;
+  height: 122px;
+  display: none;
+}
+.aboutbtn1,
+.homebtn1,
+.servicebtn1 {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  cursor: pointer;
+}
+.aboutbtn1:hover,
+.appointmentbox1:hover,
+.consultbg1:hover,
+.consultbox1:hover,
+.getstartedbtn1:hover,
+.homebtn1:hover,
+.searchbox1:hover,
+.servicebtn1:hover {
+  animation: 1s ease 0s infinite normal none scale-up;
+  opacity: 1;
+}
+.aboutbtn1,
+.servicebtn1 {
+  top: 0;
+  left: 169px;
+}
+.servicebtn1 {
+  left: 327px;
+}
+.getstartedbg1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-cornflowerblue-100);
+  width: 298px;
+  height: 67px;
+}
+.getstartedbtn1,
+.lblgetstarted1 {
+  position: absolute;
+  top: 9px;
+  left: 35px;
+}
+.getstartedbtn1 {
+  top: 4px;
+  left: 547px;
+  width: 298px;
+  height: 67px;
+  cursor: pointer;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+}
+.menubtnsection1 {
+  position: absolute;
+  top: 0;
+  left: 639px;
+  width: 845px;
+  height: 71px;
+  font-size: var(--font-size-31xl);
+  color: var(--color-black);
+}
+.navbar1 {
+  position: absolute;
+  top: 30px;
+  left: 56px;
+  width: 1484px;
+  height: 77px;
+}
+.servicesectionbg1 {
+  position: absolute;
+  top: -34px;
+  left: -193.99px;
+  background-color: var(--color-gainsboro);
+  width: 1996.57px;
+  height: 571px;
+  display: none;
+}
+.lbltitlesection31 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 650.02px);
+  font-size: var(--font-size-61xl);
+  display: inline-block;
+  width: 1357.04px;
+}
+.searchbg1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-aliceblue);
+  width: 141.42px;
+  height: 136px;
+}
+.searcicon1 {
+  position: absolute;
+  top: 18px;
+  left: calc(50% - 51.99px);
+  width: 101.91px;
+  height: 98px;
+  object-fit: cover;
+}
+.searchbox1 {
+  position: absolute;
+  top: 0;
+  left: 101.91px;
+  width: 141.42px;
+  height: 136px;
+}
+.titlesearchdr1 {
+  position: absolute;
+  top: 136px;
+  left: calc(50% - 178.34px);
+  display: inline-block;
+  width: 356.68px;
+}
+.appointmentbg1,
+.docsec1 {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: 356.68px;
+  height: 184px;
+}
+.appointmentbg1 {
+  top: 0;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+  width: 141.42px;
+  height: 136px;
+}
+.appointmenticon1 {
+  position: absolute;
+  top: 18px;
+  left: 19.76px;
+  width: 101.91px;
+  height: 98px;
+  object-fit: cover;
+}
+.appointmentbox1 {
+  position: absolute;
+  top: 0;
+  left: 74.87px;
+  width: 141.42px;
+  height: 136px;
+}
+.docsec2,
+.titleappointment1 {
+  position: absolute;
+  width: 350.44px;
+}
+.titleappointment1 {
+  top: 136px;
+  left: 0;
+  display: inline-block;
+}
+.docsec2 {
+  top: 150px;
+  left: 518px;
+  height: 184px;
+}
+.consultbg1,
+.consultbox1 {
+  position: absolute;
+  top: 0;
+  width: 141.42px;
+  height: 136px;
+}
+.consultbg1 {
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+}
+.consultbox1 {
+  left: 108.15px;
+}
+.consulttitle1 {
+  position: absolute;
+  top: 136px;
+  left: 0;
+  display: inline-block;
+  width: 404.51px;
+}
+.docsec3,
+.servicesection1 {
+  position: absolute;
+  top: 150px;
+  left: 1009px;
+  width: 404.51px;
+  height: 184px;
+}
+.servicesection1 {
+  top: 311px;
+  left: 202px;
+  width: 1414.04px;
+  height: 334px;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+}
+.searchpage {
+  position: relative;
+  background: radial-gradient(50% 50%at 50% 50%, #fff, #fff, #f3f8fc);
+  width: 100%;
+  height: 2387px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-cornflowerblue-200);
+  font-family: var(--font-inter);
+}
